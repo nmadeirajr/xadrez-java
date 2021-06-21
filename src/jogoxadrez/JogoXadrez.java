@@ -1,13 +1,13 @@
 package jogoxadrez;
 
-import tabuleiro.Posicao;
+import boardgame.Tabuleiro;
 
 public class JogoXadrez {
 
     public static void main(String[] args) {
         
-        Posicao p = new Posicao(2,3);
-        System.out.println(p);
+        Tabuleiro tabuleiro = new Tabuleiro(5,5);
+        
     }
     
 }
